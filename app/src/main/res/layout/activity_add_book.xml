@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#8C00BD"
+    android:layout_height="match_parent"
+    tools:context=".AddBookActivity">
+    <LinearLayout
+        android:layout_marginTop="40dp"
+        android:layout_width="wrap_content"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="45dp">
+        <ImageButton
+            android:id="@+id/btnKembaliLogin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_baseline_arrow_back_24"
+            android:background="@drawable/kotakrounded"/>
+        <TextView
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tambah Buku"
+            android:layout_marginLeft="60dp"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="@color/white"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/image"
+            android:layout_gravity="center"
+            android:layout_width="90dp"
+            android:layout_height="120dp"/>
+        <ImageView
+            android:id="@+id/addImage"
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_baseline_photo_camera_24"/>
+        <TextView
+            android:layout_marginTop="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Judul Buku"
+            android:textColor="@color/white"/>
+        <EditText
+            android:id="@+id/etJudul"
+            android:layout_width="306dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/searchbox"/>
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pengarang Buku"
+            android:textColor="@color/white"/>
+        <EditText
+            android:id="@+id/etPengarang"
+            android:layout_width="306dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/searchbox"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+        <Button
+            android:id="@+id/btnTambahBuku"
+            android:layout_width="306dp"
+            android:layout_height="wrap_content"
+            android:text="tambah buku"/>
+        <Button
+            android:id="@+id/btnListBuku"
+            android:layout_width="306dp"
+            android:layout_height="wrap_content"
+            android:text="Lihat List Buku"/>
+    </LinearLayout>
+</LinearLayout>

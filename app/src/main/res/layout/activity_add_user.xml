@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#8C00BD"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".mahasiswa.AddUserActivity">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Registrasi Akun"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        android:textColor="@color/white"/>
+    <LinearLayout
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_marginTop="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Masukan NIM"
+            android:textColor="@color/white"/>
+        <EditText
+            android:id="@+id/inputNim"
+            android:layout_marginTop="5dp"
+            android:layout_width="306dp"
+            android:layout_height="40dp"
+            android:background="@drawable/persegirounded"/>
+        <TextView
+            android:layout_marginTop="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Masukan Nama"
+            android:textColor="@color/white"/>
+        <EditText
+            android:id="@+id/inputNama"
+            android:layout_marginTop="5dp"
+            android:layout_width="306dp"
+            android:layout_height="40dp"
+            android:background="@drawable/persegirounded"/>
+        <TextView
+            android:layout_marginTop="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Masukan Kelas"
+            android:textColor="@color/white"/>
+        <EditText
+            android:id="@+id/inputKelas"
+            android:layout_marginTop="5dp"
+            android:layout_width="306dp"
+            android:layout_height="40dp"
+            android:background="@drawable/persegirounded"/>
+        <TextView
+            android:layout_marginTop="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Masukan Alamat Rumah"
+            android:textColor="@color/white"/>
+        <EditText
+            android:id="@+id/inputAlamat"
+            android:layout_marginTop="5dp"
+            android:layout_width="306dp"
+            android:layout_height="40dp"
+            android:background="@drawable/persegirounded"/>
+        <TextView
+            android:layout_marginTop="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Masukan Password"
+            android:textColor="@color/white"/>
+        <EditText
+            android:id="@+id/inputPass"
+            android:layout_marginTop="5dp"
+            android:layout_width="306dp"
+            android:inputType="textPassword"
+            android:layout_height="40dp"
+            android:background="@drawable/persegirounded"/>
+        <TextView
+            android:layout_marginTop="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ulangi Password"
+            android:textColor="@color/white"/>
+        <EditText
+            android:id="@+id/inputConfPass"
+            android:layout_marginTop="5dp"
+            android:layout_width="306dp"
+            android:inputType="textPassword"
+            android:layout_height="40dp"
+            android:background="@drawable/persegirounded"/>
+    </LinearLayout>
+    <Button
+        android:id="@+id/btnDaftar"
+        android:layout_width="306dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:text="Daftar Akun"/>
+    <Button
+        android:id="@+id/btnBatal"
+        android:layout_width="306dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:text="Batalkan"/>
+</LinearLayout>
